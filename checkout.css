@@ -1,0 +1,105 @@
+/* Checkout Page Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+.billing-infos {
+    max-width: 800px;
+    margin: auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.section {
+    margin-bottom: 20px;
+}
+
+.section h2 {
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 10px;
+    color: #007bff;
+}
+
+.label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.billing-info {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+.order-summary {
+    background: #f9f9f9;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.order-summary h3 {
+    margin-top: 0;
+}
+
+.total {
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #333;
+}
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #4CAF50;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus {
+    border-color: #45a049;
+    outline: none;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    font-size: 12px;
+  }
+  
+  h1 {
+    font-size: 5rem;
+    text-transform: capitalize;
+    text-shadow:
+      1px 1px 1px red,
+      2px 2px 1px red;
+    text-align: center;
+    letter-spacing: 2px;
+  }
